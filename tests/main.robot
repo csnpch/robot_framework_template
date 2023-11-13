@@ -1,3 +1,3 @@
 *** Test Case ***
-TEST01
+CASE 00: 
     Log To Console   Hello, world!
