@@ -1,3 +1,3 @@
 *** Test Case ***
 TEST01
-  Log To Console   Hello, world!
+    Log To Console   Hello, world!
