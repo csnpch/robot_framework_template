@@ -1,0 +1,21 @@
+tools required:
+- nodejs
+
+base output:
+- ./results
+
+script to run:
+- rb | run robot framework default output to ./results
+- rb-t | run robot framework with timestamp output to ./results
+- rbc | run robot framework with default output to ./results
+- rbc-t | run robot framework with timestamp output to ./results
+
+execution pattern:
+- `npm run {script_name} --file={path_test_file}`
+- `npm run {script_name} --file={path_test_file} --test={test_name}  // only rbc have --test option`
+
+example command execution:
+- `npm run rb --file=./tests/FileName.robot`
+- `npm run rb-t --file=./tests/FileName.robot`
+- `npm run rbc --file=./tests/FileName.robot --test=TestName`
+- `npm run rbc-t --file=./tests/FileName.robot --test=TestName`
