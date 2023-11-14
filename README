@@ -12,18 +12,18 @@ script to run:
 
 keyword command options:
 - file - for the path of the test file is required
-- test - for the name of the test is optional
+- name - for the name of run tests is optional
 - options - for the options of the robot framework is optional
 
 execution pattern:
 - `npm run {script_name} --file={path_test_file}`
-- `npm run {script_name} --file={path_test_file} --test={test_name}  // only rbc have --test option`
+- `npm run {script_name} --file={path_test_file} --name={test_name}  // only rbc have --name option`
 
 example command execution:
 - `npm run rb --file=./tests/FileName`
 - `npm run rb-t --file=./tests/FileName`
-- `npm run rbc --file=./tests/FileName --test=TestName`
-- `npm run rbc-t --file=./tests/FileName --test=TestName`
+- `npm run rbc --file=./tests/FileName --name=TestName`
+- `npm run rbc-t --file=./tests/FileName --name=TestName`
 
 more info:
 all the scripts you can add --options and use " " to wrap the value of the options in robot framework

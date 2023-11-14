@@ -1,6 +1,6 @@
 *** Test Case ***
 CASE 01 Login with valid username and password: 
-    [Tags]  Login
+    [Tags]  Login   Smokes
     Log To Console   Try Login With Valid Username Password...
     Sleep   0.5s
     
