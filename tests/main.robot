@@ -27,4 +27,3 @@ CASE 05 Check notification
     [Tags]  Notify
     Log To Console  Check Notify...
     Sleep   0.5s
-

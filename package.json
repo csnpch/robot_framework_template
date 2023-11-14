@@ -1,9 +1,9 @@
 {
   "license": "UNLICENSED",
   "scripts": {
-    "rb": "robot -d ./results $npm_config_file.robot",
-    "rb-t": "robot -T -d ./results $npm_config_file.robot",
-    "rbc": "robot -d ./results -o $npm_config_test-output -r $npm_config_test-report -l $npm_config_test-log $npm_config_file.robot",
-    "rbc-t": "robot -T -d ./results -o $npm_config_test-output -r $npm_config_test-report -l $npm_config_test-log $npm_config_file.robot"
+    "rb": "robot -d ./results $npm_config_options $npm_config_file.robot",
+    "rb-t": "robot -T -d ./results $npm_config_options $npm_config_file.robot",
+    "rbc": "robot -d ./results -o $npm_config_test-output -r $npm_config_test-report -l $npm_config_test-log $npm_config_options $npm_config_file.robot",
+    "rbc-t": "robot -T -d ./results -o $npm_config_test-output -r $npm_config_test-report -l $npm_config_test-log $npm_config_options $npm_config_file.robot"
   }
 }
