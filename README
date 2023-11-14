@@ -10,6 +10,11 @@ script to run:
 - rbc | run robot framework with default output to ./results
 - rbc-t | run robot framework with timestamp output to ./results
 
+keyword command options:
+- file - for the path of the test file is required
+- test - for the name of the test is optional
+- options - for the options of the robot framework is optional
+
 execution pattern:
 - `npm run {script_name} --file={path_test_file}`
 - `npm run {script_name} --file={path_test_file} --test={test_name}  // only rbc have --test option`
